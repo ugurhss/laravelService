@@ -46,11 +46,6 @@ var_dump($service1 === $service2); // true — aynı nesne
 echo spl_object_id($service1); // Nesne 1’in ID’si
 echo spl_object_id($service2); // Nesne 2’nin ID’si aynı olacak
 
-NOT:
-bind() genellikle her çağrıda yeni nesne istediğin durumlarda kullanılır.
-
-singleton() ise aynı nesneyi paylaştırmak istediğinde kullanılır.
-
 
     */
     }
